@@ -1,0 +1,7 @@
+web:
+  image: kalilinux/kali-rolling
+  container_name: my-container
+  privileged: true
+  entrypoint: ["/bin/bash"]
+  ports:
+    - "8280:8280"
